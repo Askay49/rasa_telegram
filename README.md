@@ -6,7 +6,7 @@ This bot is an example of task-oriented bot that developed with Rasa framework. 
 
 ## Setup & run
 
-It was developed for python 3.8.5
+It was developed for python 3.8.15
 
 1. create and activate venv
 ```bash
@@ -22,7 +22,8 @@ venv\Scripts\activate.bat
 
 2. install dependencies
 ```bash
-pip install -r requirements.txt
+pip install rasa==3.2.10
+pip install transformers==4.13.0
 ```
 
 3. train bot
