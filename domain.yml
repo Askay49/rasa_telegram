@@ -1,0 +1,56 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - inform
+  - ask_for_next
+  - request_case
+
+entities:
+  - topic
+
+actions:
+  - action_retrieve_case
+
+slots:
+  topic:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: topic
+
+forms:
+  case_form:
+    required_slots:
+        - topic
+
+responses:
+  utter_greet:
+  - text: "Hello!"
+
+  utter_good_feedback:
+  - text: "Ohh, you are so curious"
+
+  utter_goodbye:
+  - text: "See you"
+
+  utter_ask_topic:
+  - text: "Enter the topic:
+    - education
+    - recreational
+    - social
+    - diy
+    - charity
+    - cooking
+    - relaxation
+    - music
+    - busywork"
+
+  utter_iamabot:
+  - text: "I am bot that tells intresting "
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

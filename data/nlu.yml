@@ -1,0 +1,58 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - Hey
+    - Hi dude
+    - good morning
+    - good evening
+    - Good afternoon
+
+- intent: goodbye
+  examples: |
+    - bye
+    - see you later
+    - good night
+    - goodbye
+    - have a good day
+    - I'll see you
+    - bye Bye
+    - see you later
+
+- intent: inform
+  examples: |
+    - I want to do [education](topic)
+    - tell me what to do [social](topic)
+    - do [diy](topic)
+    - I want[music](topic)
+
+- intent: ask_for_next
+  examples: |
+    - let's have one more
+    - next
+    - can you please
+    - additives
+
+- intent: request_case
+  examples: |
+    - I want to do diy
+    - I want to do something relaxation
+    - Well, let's have your entertainment
+    - so tell me something cool
+    - an interesting entertainment about music
+
+- lookup: topic
+  examples: |
+    - education
+    - recreational
+    - social
+    - diy
+    - charity
+    - cooking
+    - relaxation
+    - music
+    - busywork
+
+

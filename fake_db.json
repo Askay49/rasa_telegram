@@ -1,0 +1,23 @@
+{
+    "any": [
+        "Insects breathe with their whole body.",
+        "Bone is 5 times stronger than steel.",
+        "By the end of life, a person remembers an average of 150 trillion bits of information.",
+        "The aroma of apples and bananas helps to lose weight.",
+        "There are no mammals in the deep ocean."
+    ],
+    "human": [
+        "An adult person takes about 23 thousand breaths (and exhalations) per day.",
+        "The average person spends 2 weeks kissing in their lifetime.",
+        "The human heart generates enough pressure to raise the blood to the level of the 4th floor.",
+        "Nerve impulses in the human body move at a speed of approximately 90 meters per second.",
+        "Right-handed people live an average of 9 years longer than left-handed people."
+    ],
+    "animal": [
+        "The water deer lives in China, it has no antlers, but has fangs.",
+        "Hares are found almost everywhere except Antarctica and Australia.",
+        "The noisiest animal in the world is the blue whale, its singing can deafen a person.",
+        "The number of people who died from bees is much greater than from snake bites.",
+        "If you cross a zebra with a domestic horse, you get a hybrid called a zebroid."
+    ]
+}

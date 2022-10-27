@@ -1,0 +1,23 @@
+recipe: default.v1
+
+language: ru
+
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: LanguageModelFeaturizer
+    model_name: "bert"
+    model_weights: "sentence-transformers/all-MiniLM-L6-v2"
+  - name: RegexEntityExtractor
+    case_sensitive: False
+    use_lookup_tables: True
+    use_regexes: True
+    use_word_boundaries: True
+  - name: DIETClassifier
+    entity_recognition: False
+    epochs: 100
+  - name: EntitySynonymMapper
+  - name: FallbackClassifier
+    threshold: 0.3
+
+policies:
+  - name: RulePolicy
