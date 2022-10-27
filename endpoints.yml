@@ -1,2 +1,2 @@
 action_endpoint:
- url: "https://ad8f-5-140-66-103.ngrok.io/webhook"
+ url: "http://localhost:5055/webhook"
