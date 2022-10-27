@@ -2,7 +2,7 @@
 
 ## Description
 
-This bot is an example of task-oriented bot that developed with Rasa framework. Bot can retrieve intresting facts according to topic (e.g. about human or animals). Database was handcrafted and stores facts as key-value at `fake_db.json`. Bot requires topic using so called slot-filling (or form-filling) mechanism. To collect topic NLU uses lookup tables (rule based approach), but intent recognition solved by pretrained transformer LM and DIET on top it (machine learning approcah).
+This bot is an example of task-oriented bot that developed with Rasa framework. Bot can retrieve intresting case according to topic (e.g. about diy or music). Database is http://www.boredapi.com/. Bot requires topic using so called slot-filling (or form-filling) mechanism. To collect topic NLU uses lookup tables (rule based approach), but intent recognition solved by pretrained transformer LM and DIET on top it (machine learning approcah).
 
 ## Setup & run
 
